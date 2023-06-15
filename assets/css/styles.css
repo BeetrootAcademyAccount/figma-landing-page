@@ -1,0 +1,90 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f5f2eb;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Helper Classes */
+.btn-primary {
+  background-color: #aed6b3;
+  height: 44px;
+  border: 1px solid #aed6b3;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid #000000;
+  height: 40px;
+  border-radius: 40px;
+  color: #000000;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.main-nav {
+  padding: 16px 70px 0 0;
+}
+
+.main-nav__list {
+  text-align: right;
+}
+
+.main-nav_item {
+  display: inline-block;
+}
+
+.btn-signup {
+  background-color: transparent;
+  border: none;
+}
+
+.border-color-black {
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.main-signin,
+.main-img {
+  display: inline-block;
+}
+
+.main-signin {
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  background-color: #ffffff;
+  height: 648px;
+  width: 480px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  color: lightgray;
+  font-size: 22px;
+}
