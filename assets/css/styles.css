@@ -22,10 +22,19 @@ button {
   height: 40px;
   border-radius: 40px;
   color: #000000;
+  padding: 10px 23px;
 }
 
 .mb-32 {
   margin-bottom: 32px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mr-8 {
+  margin-right: 8px;
 }
 
 .font-12 {
@@ -42,6 +51,10 @@ button {
 
 .font-bold {
   font-weight: 700;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .main-nav {
@@ -72,12 +85,20 @@ button {
 }
 
 .main-signin {
+  vertical-align: top;
   text-align: center;
   border: 1px solid #ffffff;
   border-radius: 30px;
   background-color: #ffffff;
   height: 648px;
   width: 480px;
+  padding: 58px 52px 0 52px;
+  margin-left: 180px;
+  margin-top: 108px;
+}
+
+.main-img {
+  margin-top: 132px;
 }
 
 h1 {
@@ -87,4 +108,37 @@ h1 {
 h2 {
   color: lightgray;
   font-size: 22px;
+}
+
+label {
+  display: none;
+}
+
+input {
+  border: 1px solid #5d5d5d;
+  border-radius: 8px;
+  width: 376px;
+  height: 48px;
+  padding: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* input::placeholder {
+  color: #797979;
+  padding: 15px 23px;
+  color: red;
+} */
+
+.btn-secondary:nth-child(2) {
+  margin: 0 8px;
+}
+
+.register-link,
+.register-link:visited,
+.register-link:focus {
+  text-decoration: none;
+  color: #000000;
 }

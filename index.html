@@ -42,14 +42,15 @@
     </header>
     <main>
       <section class="main-signin">
-        <h1 class="font-bold">Sign in</h1>
-        <h2 class="font-regular">
+        <h1 class="font-bold mb-12">Sign in</h1>
+        <h2 class="font-regular mb-32">
           Hey, Enter your details to login to your account
         </h2>
         <form action="">
           <div>
             <label for="email-phone">Email/Phone</label>
             <input
+              class="mb-12"
               id="email-phone"
               name="email-phone"
               type="text"
@@ -59,25 +60,39 @@
           <div>
             <label for="password">Passcode</label>
             <input
+              class="mb-12"
               id="password"
               name="password"
               type="password"
               placeholder="Passcode"
             />
           </div>
-          <div>
-            <span>Don't have an account yet? Register now!</span>
+          <div class="mb-32">
+            <span class="font-12 font-regular"
+              >Don't have an account yet? Register now!</span
+            >
           </div>
-          <button type="submit">Sign in</button>
+          <button type="submit" class="btn-primary w-100 mb-32">Sign in</button>
         </form>
-        <span>- Or Sign in with -</span>
-        <div>
-          <button><i class="fa-brands fa-google"></i>Google</button>
-          <button><i class="fa-brands fa-apple"></i>Apple ID</button>
-          <button><i class="fa-brands fa-facebook"></i>Facebook</button>
+        <div class="mb-32">
+          <span class="font-12 font-medium">- Or Sign in with -</span>
+        </div>
+        <div class="mb-32">
+          <button class="btn-secondary">
+            <i class="fa-brands fa-google fa-lg mr-8"></i>Google
+          </button>
+          <button class="btn-secondary">
+            <i class="fa-brands fa-apple fa-lg mr-8"></i>Apple ID
+          </button>
+          <button class="btn-secondary">
+            <i class="fa-brands fa-facebook fa-lg mr-8"></i>Facebook
+          </button>
         </div>
         <div>
-          <span>Don't have an account yet? <a href="">Register now!</a> </span>
+          <span class="font-12 font-regular"
+            >Don't have an account yet?
+            <a href="" class="register-link font-bold">Register now!</a>
+          </span>
         </div>
       </section>
       <section class="main-img">
